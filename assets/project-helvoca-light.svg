@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="HELVOCA / RECEPVOZ: AI voice reception and booking platform" width="1000" height="220" viewBox="0 0 1000 220">
+    <rect width="1000" height="220" rx="20" fill="#F6F8FF"/>
+    <rect x="2" y="2" width="996" height="216" rx="18" fill="none" stroke="#A0B5D2" stroke-width="2"/>
+    <rect x="25" y="20" width="520" height="33" rx="16.5" fill="#FFFFFF" stroke="#136C91"/>
+    <text x="43" y="42" fill="#136C91" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700">BACKEND · PRODUCT ENGINEERING</text>
+    <text x="920" y="52" text-anchor="end" fill="#136C91" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="800">01</text>
+    <text x="30" y="106" fill="#172540" font-family="Arial,Helvetica,sans-serif" font-size="37" font-weight="800">HELVOCA / RECEPVOZ</text>
+    <text x="30" y="145" fill="#4E617D" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="500">AI voice reception and booking platform</text>
+    <line x1="30" y1="163" x2="970" y2="163" stroke="#A0B5D2"/>
+    <text x="30" y="195" fill="#136C91" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700">Java 21 · Spring Boot · PostgreSQL · Docker</text>
+    <text x="955" y="196" text-anchor="end" fill="#4E617D" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700">VIEW SOURCE →</text>
+  </svg>
