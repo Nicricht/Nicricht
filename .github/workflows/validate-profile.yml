@@ -1,0 +1,15 @@
+name: Validate profile
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate local SVGs and references
+        run: python3 scripts/check_profile.py
