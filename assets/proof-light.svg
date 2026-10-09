@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" width="1200" height="170" viewBox="0 0 1200 170" aria-label="Animated GitHub portfolio graphic">
+<title>Public engineering evidence</title>
+<desc>Projects: Helvoca AI voice SaaS, EduBío 360 Java microservices and Case Hunter Python automation</desc>
+<style><![CDATA[
+.bar{animation:slide 5s linear infinite}.pulse{animation:pulse 2.5s ease-in-out infinite}.pulseLate{animation:pulse 2.5s ease-in-out -1.2s infinite}@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}@keyframes slide{to{stroke-dashoffset:-345}}
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+]]></style>
+<rect width="1200" height="170" rx="20" fill="#F5F8FF"/>
+<rect x="2" y="2" width="1196" height="166" rx="18" stroke="#A0B5D2" stroke-width="2" fill="none"/>
+<g>
+  <rect x="18" y="12" width="379" height="145" rx="16" fill="#FFFFFF" stroke="#A0B5D2" stroke-width="2"/>
+  <rect x="33" y="28" width="7" height="46" rx="3" fill="#007EA7" class="pulse"/>
+  <text x="56" y="49" font-size="18" fill="#007EA7" font-weight="800" font-family="Arial,Helvetica,sans-serif" >PROJECT / 01</text>
+  <text x="56" y="91" font-size="29" fill="#15233F" font-weight="800" font-family="Arial,Helvetica,sans-serif" >AI VOICE SAAS</text>
+  <text x="56" y="124" font-size="22" fill="#435A78" font-weight="700" font-family="Arial,Helvetica,sans-serif" >HELVOCA / RECEPVOZ</text>
+  <path class="bar" d="M36 143 H375" stroke="#007EA7" stroke-width="4" stroke-dasharray="95 250"/>
+  </g><g>
+  <rect x="415" y="12" width="379" height="145" rx="16" fill="#FFFFFF" stroke="#A0B5D2" stroke-width="2"/>
+  <rect x="430" y="28" width="7" height="46" rx="3" fill="#694BBE" class="pulseLate"/>
+  <text x="453" y="49" font-size="18" fill="#694BBE" font-weight="800" font-family="Arial,Helvetica,sans-serif" >PROJECT / 02</text>
+  <text x="453" y="91" font-size="29" fill="#15233F" font-weight="800" font-family="Arial,Helvetica,sans-serif" >JAVA MICROSERVICES</text>
+  <text x="453" y="124" font-size="22" fill="#435A78" font-weight="700" font-family="Arial,Helvetica,sans-serif" >EDUBÍO 360</text>
+  <path class="bar" d="M433 143 H772" stroke="#694BBE" stroke-width="4" stroke-dasharray="95 250"/>
+  </g><g>
+  <rect x="812" y="12" width="379" height="145" rx="16" fill="#FFFFFF" stroke="#A0B5D2" stroke-width="2"/>
+  <rect x="827" y="28" width="7" height="46" rx="3" fill="#007B62" class="pulse"/>
+  <text x="850" y="49" font-size="18" fill="#007B62" font-weight="800" font-family="Arial,Helvetica,sans-serif" >PROJECT / 03</text>
+  <text x="850" y="91" font-size="29" fill="#15233F" font-weight="800" font-family="Arial,Helvetica,sans-serif" >PYTHON AUTOMATION</text>
+  <text x="850" y="124" font-size="22" fill="#435A78" font-weight="700" font-family="Arial,Helvetica,sans-serif" >CASE HUNTER</text>
+  <path class="bar" d="M830 143 H1169" stroke="#007B62" stroke-width="4" stroke-dasharray="95 250"/>
+  </g>
+</svg>

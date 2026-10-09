@@ -1,110 +1,67 @@
 <div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg" />
-  <img src="assets/banner-dark.svg" alt="Nicolás Vega | Java Backend, APIs and Automation" width="100%" />
-</picture>
-
-<p><strong>Computer Engineering student · Java / Spring Boot · Backend APIs · Automation</strong></p>
-
-<p><a href="#selected-projects"><strong>View my projects</strong></a> · <a href="https://github.com/Nicricht?tab=repositories"><strong>Explore my repositories</strong></a> · <a href="mailto:nic.vegal@duocuc.cl"><strong>Contact me</strong></a></p>
-
+<picture><source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg"/><source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg"/><img src="assets/banner-dark.svg" width="100%" alt="Nicolás Vega. Java Backend developer in training. Spring Boot, REST APIs, SQL. Real software projects."/></picture>
+<p><strong>JAVA · SPRING BOOT · REST APIs · SQL · AUTOMATION</strong></p>
+<p><a href="https://github.com/Nicricht/helvoca"><strong>▶ EXPLORE HELVOCA</strong></a> · <a href="#selected-projects"><strong>VIEW CODE</strong></a> · <a href="mailto:nic.vegal@duocuc.cl"><strong>CONTACT</strong></a></p>
+<picture><source media="(prefers-color-scheme: light)" srcset="assets/proof-light.svg"/><source media="(prefers-color-scheme: dark)" srcset="assets/proof-dark.svg"/><img src="assets/proof-dark.svg" width="100%" alt="Public work: Helvoca AI voice SaaS, EduBío 360 Java microservices and Case Hunter Python automation."/></picture>
 </div>
 
-## About me
+## <a id="selected-projects"></a>Featured project: [Helvoca / RecepVoz](https://github.com/Nicricht/helvoca)
 
-I am **Nicolás Iván Vega Linero**, a Computer Engineering student at **DUOC UC** in Santiago, Chile. I build backend services and practical software projects with a focus on **Java, Spring Boot, relational databases, API design and automation**.
+<a href="https://github.com/Nicricht/helvoca"><picture><source media="(prefers-color-scheme: light)" srcset="assets/project-helvoca-light.svg"/><source media="(prefers-color-scheme: dark)" srcset="assets/project-helvoca.svg"/><img src="assets/project-helvoca.svg" width="100%" alt="Helvoca, AI voice SaaS built with Java, Spring Boot, PostgreSQL and Docker"/></picture></a>
 
-My work includes an AI-assisted telephone reception product, a Java microservices platform, Python automation, and a React/TypeScript coursework project. I am expanding my knowledge of **Cloud, Cybersecurity, DevOps and AI** rather than presenting those interests as expert-level skills.
+**What I built:** A multi-tenant AI voice reception system with authentication, reservations, service catalogs, business knowledge and backend-controlled workflows.
 
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/terminal-light.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-dark.svg" />
-  <img src="assets/terminal-dark.svg" width="100%" alt="Engineering snapshot: Java backend, Helvoca and areas of learning" />
-</picture>
-</div>
+**Tech:** Java 21 · Spring Boot · Spring Security · PostgreSQL · Flyway · Docker · GitHub Actions
 
-## Selected projects
+**[See the source code and architecture →](https://github.com/Nicricht/helvoca)**
 
-*Real repositories with public source code and technical documentation.*
+## More projects with real code
 
-### 01 · [Helvoca / RecepVoz](https://github.com/Nicricht/helvoca)
+<a href="https://github.com/Nicricht/edubio360"><picture><source media="(prefers-color-scheme: light)" srcset="assets/project-edubio-light.svg"/><source media="(prefers-color-scheme: dark)" srcset="assets/project-edubio.svg"/><img src="assets/project-edubio.svg" width="100%" alt="EduBío 360, Java microservices and messaging backend"/></picture></a>
 
-<a href="https://github.com/Nicricht/helvoca"><picture><source media="(prefers-color-scheme: light)" srcset="assets/project-helvoca-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/project-helvoca.svg" /><img src="assets/project-helvoca.svg" alt="Helvoca: AI voice reception and booking SaaS; Java, Spring Boot, PostgreSQL" width="100%" /></picture></a>
+**[EduBío 360](https://github.com/Nicricht/edubio360):** Higher-education microservices, API Gateway, service discovery, MySQL and RabbitMQ.
 
-**What it demonstrates:** A multi-tenant backend supporting authentication, service catalogs, customer information, reservations, business knowledge, voice integration and operational tracing.
+<a href="https://github.com/Nicricht/casehunter"><picture><source media="(prefers-color-scheme: light)" srcset="assets/project-casehunter-light.svg"/><source media="(prefers-color-scheme: dark)" srcset="assets/project-casehunter.svg"/><img src="assets/project-casehunter.svg" width="100%" alt="Case Hunter, Python automation for public data research and decisions"/></picture></a>
 
-**Stack:** Java 21 · Spring Boot · Spring Security · PostgreSQL · Flyway · Docker · GitHub Actions
-
-[Explore implementation and documentation →](https://github.com/Nicricht/helvoca)
-
-### 02 · [EduBío 360](https://github.com/Nicricht/edubio360)
-
-<a href="https://github.com/Nicricht/edubio360"><picture><source media="(prefers-color-scheme: light)" srcset="assets/project-edubio-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/project-edubio.svg" /><img src="assets/project-edubio.svg" alt="EduBío 360: Java microservices for higher-education guidance" width="100%" /></picture></a>
-
-**What it demonstrates:** Domain-oriented microservices with an API gateway, service discovery, asynchronous messaging, testing and database persistence.
-
-**Stack:** Java 21 · Spring Boot · Spring Cloud · MySQL · RabbitMQ · Docker
-
-[Explore backend services →](https://github.com/Nicricht/edubio360)
-
-### 03 · [Case Hunter](https://github.com/Nicricht/casehunter)
-
-<a href="https://github.com/Nicricht/casehunter"><picture><source media="(prefers-color-scheme: light)" srcset="assets/project-casehunter-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/project-casehunter.svg" /><img src="assets/project-casehunter.svg" alt="Case Hunter: research and automation using Python" width="100%" /></picture></a>
-
-**What it demonstrates:** Public-data discovery and deduplication, decision policies, contact validation, follow-up workflows and auditable automation.
-
-**Stack:** Python · Data processing · Business rules · APIs
-
-[Explore automation and decision policies →](https://github.com/Nicricht/casehunter)
-
-### 04 · [Movie Catalog](https://github.com/Nicricht/Fullstack)
-
-<a href="https://github.com/Nicricht/Fullstack"><picture><source media="(prefers-color-scheme: light)" srcset="assets/project-fullstack-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="assets/project-fullstack.svg" /><img src="assets/project-fullstack.svg" alt="Movie Catalog: student project using React, TypeScript and React Router" width="100%" /></picture></a>
-
-**What it demonstrates:** A **coursework project** applying component composition, Atomic Design, dynamic routing and typed props.
-
-**Stack:** React · TypeScript · Vite · React Router · Bootstrap
-
-[Explore React source code →](https://github.com/Nicricht/Fullstack)
-
-## Technologies used in my projects
-
-<div align="center">
-<img src="https://skillicons.dev/icons?i=java,spring,python,js,ts,react,postgres,mysql,docker,git,github&perline=11" alt="Java, Spring Boot, Python, JavaScript, TypeScript, React, PostgreSQL, MySQL, Docker, Git and GitHub" />
-</div>
-
-**Backend:** Java, Spring Boot, REST APIs, SQL, Spring Security and automated tests  
-**Additional experience:** Python automation, React/TypeScript, Docker and Git  
-**Learning next:** Cloud platforms, cybersecurity, CI/CD, data/ML and applied AI
-
-## Engineering direction
-
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/focus-map-light.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="assets/focus-map-dark.svg" />
-  <img src="assets/focus-map-dark.svg" alt="Professional focus: backend APIs; hands-on with React and Python automation; learning Cloud, Security and AI" width="100%" />
-</picture>
-
-*This map shows areas of interest and project experience. It is not a proficiency ranking.*
+**[Case Hunter](https://github.com/Nicricht/casehunter):** Python automation for public-data research, prioritization, deduplication and auditable decision policies.
 
 <details>
-<summary><b>GitHub activity (optional)</b></summary>
-<p align="center"><img src="https://streak-stats.demolab.com?user=Nicricht&theme=github-dark-blue&hide_border=true" alt="Public GitHub contribution streaks; not a measure of skill" /></p>
+<summary><strong>Show my React / TypeScript coursework project</strong></summary>
+
+<a href="https://github.com/Nicricht/Fullstack"><picture><source media="(prefers-color-scheme: light)" srcset="assets/project-fullstack-light.svg"/><source media="(prefers-color-scheme: dark)" srcset="assets/project-fullstack.svg"/><img src="assets/project-fullstack.svg" width="100%" alt="Movie Catalog, React TypeScript and Vite coursework project"/></picture></a>
+
+**[Movie Catalog](https://github.com/Nicricht/Fullstack):** Student project applying React Router, dynamic routes, typed props, Vite and Atomic Design.
+</details>
+
+## What I bring to a team
+
+I am **Nicolás Iván Vega Linero**, a **Computer Engineering student at DUOC UC** in Chile, focused on **Java backend development, APIs, SQL and automation**. My public repositories demonstrate hands-on work with multi-tenant services, microservices, testing and full-stack fundamentals.
+
+<div align="center">
+<picture><source media="(prefers-color-scheme: light)" srcset="assets/terminal-light.svg"/><source media="(prefers-color-scheme: dark)" srcset="assets/terminal-dark.svg"/><img src="assets/terminal-dark.svg" width="100%" alt="Engineering snapshot: Java backend in training, Spring Boot APIs, public source code and current work on Helvoca."/></picture>
+</div>
+
+**Used in projects:** Java · Spring Boot · SQL · PostgreSQL · MySQL · Docker · Git / GitHub · Python · TypeScript / React
+
+**Learning next:** Cloud infrastructure · Cybersecurity · DevOps · Applied AI.
+
+<details>
+<summary><strong>Explore my technical learning direction</strong></summary>
+
+<picture><source media="(prefers-color-scheme: light)" srcset="assets/focus-map-light.svg"/><source media="(prefers-color-scheme: dark)" srcset="assets/focus-map-dark.svg"/><img src="assets/focus-map-dark.svg" width="100%" alt="Technical directions: Java and backend API development, Python and React projects, learning Cloud, Security, DevOps and AI."/></picture>
+
+*This is a map of interests and project experience, not a proficiency score.*
+</details>
+
+<details>
+<summary><strong>View GitHub activity</strong></summary>
+<p align="center"><img src="https://streak-stats.demolab.com?user=Nicricht&theme=github-dark-blue&hide_border=true" alt="GitHub contribution streaks from an external service"/></p>
 </details>
 
 ---
 
 <div align="center">
-
-<h3>Connect</h3>
-
-<p>Interested in backend development, software engineering and collaborative projects.</p>
-
-<p><a href="mailto:nic.vegal@duocuc.cl"><strong>Email</strong></a> · <a href="https://github.com/Nicricht"><strong>GitHub</strong></a> · <a href="https://github.com/Nicricht?tab=repositories"><strong>Repositories</strong></a></p>
-
-<sub>Chile · Build / Learn / Ship · Visual assets made with SVG</sub>
-
+<p><strong>Interested in Java backend, software engineering and practical products?</strong></p>
+<p><a href="mailto:nic.vegal@duocuc.cl"><strong>EMAIL</strong></a> · <a href="https://github.com/Nicricht?tab=repositories"><strong>ALL REPOSITORIES</strong></a> · <a href="https://github.com/Nicricht"><strong>GITHUB</strong></a></p>
+<sub>CHILE · BUILD / LEARN / SHIP · GitHub-safe animated SVG, no JavaScript or external runtime required</sub>
 </div>
