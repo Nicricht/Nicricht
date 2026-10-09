@@ -6,9 +6,9 @@
   <img src="assets/banner-dark.svg" alt="Nicolás Vega | Java Backend, APIs and Automation" width="100%" />
 </picture>
 
-**Computer Engineering student · Java / Spring Boot · Backend APIs · Automation**
+<p><strong>Computer Engineering student · Java / Spring Boot · Backend APIs · Automation</strong></p>
 
-[**View my projects**](#selected-projects) · [**Explore my repositories**](https://github.com/Nicricht?tab=repositories) · [**Contact me**](mailto:nic.vegal@duocuc.cl)
+<p><a href="#selected-projects"><strong>View my projects</strong></a> · <a href="https://github.com/Nicricht?tab=repositories"><strong>Explore my repositories</strong></a> · <a href="mailto:nic.vegal@duocuc.cl"><strong>Contact me</strong></a></p>
 
 </div>
 
@@ -99,11 +99,11 @@ My work includes an AI-assisted telephone reception product, a Java microservice
 
 <div align="center">
 
-### Connect
+<h3>Connect</h3>
 
-Interested in backend development, software engineering and collaborative projects.
+<p>Interested in backend development, software engineering and collaborative projects.</p>
 
-[**Email**](mailto:nic.vegal@duocuc.cl) · [**GitHub**](https://github.com/Nicricht) · [**Repositories**](https://github.com/Nicricht?tab=repositories)
+<p><a href="mailto:nic.vegal@duocuc.cl"><strong>Email</strong></a> · <a href="https://github.com/Nicricht"><strong>GitHub</strong></a> · <a href="https://github.com/Nicricht?tab=repositories"><strong>Repositories</strong></a></p>
 
 <sub>Chile · Build / Learn / Ship · Visual assets made with SVG</sub>
 
