@@ -1,45 +1,28 @@
-# Customize your GitHub profile
+# Maintaining the Nicricht GitHub profile
 
-The **Nicricht/Nicricht** repository is a GitHub profile repository: its root `README.md` appears automatically on [github.com/Nicricht](https://github.com/Nicricht) when the repository is public.
+The public GitHub profile lives at https://github.com/Nicricht and is sourced from this repository's README.
 
-## Design
+## Layout
+1. Hero identity and clear backend specialization.
+2. Short about section and terminal-style engineering snapshot.
+3. Four real public projects, each with a wide, responsive SVG card and textual evidence.
+4. Project technologies and learning directions.
+5. Optional activity stats and contact links.
 
-- `README.md`: all visible sections and links.
-- `assets/banner-*.svg`: hero branding, with automatic dark/light variants.
-- `assets/terminal-*.svg`: terminal bio cards with automatic dark/light variants.
-- `assets/focus-map-*.svg`: engineering interests, not skill proficiency scores.
-- `assets/project-*.svg`: clickable project cover art.
-- `.github/workflows/validate-profile.yml`: checks local SVG assets, links and README paths on each push and PR.
+SVG assets are original. All SVGs are static, with no JavaScript. Project graphics have dark and light versions, and links remain plain HTML/Markdown for GitHub compatibility.
 
-All vector artwork is authored specifically for this profile. No cloning or copying of pagaliv's graphics or assets.
+## Accessibility and maintenance
+- Keep critical descriptions in Markdown, not only inside SVG images.
+- Prefer concise text with useful alt descriptions.
+- Avoid percentage skill scores, visitor-count vanity metrics, and unverified certifications.
+- Keep the role aligned with project evidence: Java/Spring Boot backend and automation.
+- Project SVG designs are 1000x220 to remain legible within GitHub's content column.
+- If adding new SVG text, avoid coordinates at or beyond the viewBox edges.
+- Use the correct public project links; never claim private client deployments without evidence.
+- External technology icons and optional streak statistics may be temporarily unavailable.
+- Contact currently links to the educational email also displayed on the public GitHub profile.
 
-## Edit names, descriptions, contacts
+## Check
+Run: python3 scripts/check_profile.py
 
-Open `README.md` and edit text using GitHub's pencil icon. For the SVGs, open the corresponding file in `assets/` and edit SVG `text` nodes. You can also edit in VS Code.
-
-**Privacy:** no contact email, phone number or LinkedIn URL is published here. Your public display name and student status are included; edit those if you prefer more privacy.
-
-**Accuracy:** references to Java, Spring, Docker, React, etc. indicate project experience, not claimed expert proficiency. The Engineering Horizon lists interests, not numeric skills.
-
-## External image services
-
-These third-party images are optional and may occasionally be unavailable:
-- https://readme-typing-svg.demolab.com
-- https://skillicons.dev
-- https://streak-stats.demolab.com
-- https://img.shields.io
-- https://komarev.com
-
-The core design (banner, terminal, project cards, horizon) works without any of those services. If an external widget fails, you can remove its `<img>` from `README.md` without breaking the rest.
-
-## How to publish (GitHub web)
-
-1. Create a **public** repository named `Nicricht` under user `Nicricht`, and check **Add a README file**.
-2. Upload `assets/`, `.github/workflows/`, `scripts/` and `CUSTOMIZE.md` preserving their paths. Replace the default `README.md` with this template.
-3. Visit https://github.com/Nicricht and refresh.
-
-You do not need to enable GitHub Pages, purchase a domain or reveal an API key.
-
-## Test locally
-
-Run `python scripts/check_profile.py` from the root of the repository. No third-party Python dependencies are required.
+.github/workflows/validate-profile.yml runs this check on push and pull requests.
